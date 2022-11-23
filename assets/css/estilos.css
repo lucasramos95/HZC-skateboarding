@@ -284,6 +284,11 @@ body {
     grid-column: span 2;
 }
 
+.cartao__botao--carrinho::before {
+    content: "\e901";
+    font-size: 24px;
+}
+
 .cartao__botao--destaque::before {
     margin-right: 8px;
 }
